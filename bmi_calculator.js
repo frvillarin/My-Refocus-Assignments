@@ -1,7 +1,7 @@
 function calculateBMI(mass,length){
 
-    var weight = mass;
-    var height = length;
+    var weight = mass;//in kg
+    var height = length;//in cm
 
 
     var BMI = (weight / Math.pow(height, 2));
